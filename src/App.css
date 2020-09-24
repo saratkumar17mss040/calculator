@@ -1,0 +1,49 @@
+.App {
+	width: 500px;
+	height: 650px;
+	background-color: #2d4059;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 575.98px) {
+	.App {
+		transform: scale(0.7);
+		margin-left: 70px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.App {
+		transform: scale(1.2);
+	}
+}
+
+.calcButton {
+	background: #ffc93c;
+	width: 20%;
+	font-size: 20px;
+	font-weight: 900;
+	border-radius: 7px;
+	margin-left: 20px;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+.calcButton:hover,
+.calcButton:focus {
+	border: none;
+	color: #ffffff;
+	background-color: #1aa6b7;
+	box-shadow: 3px 3px 3px 0px #1aa6b7;
+}
+
+.result,
+.input {
+	background-color: firebrick;
+	height: 70px;
+	color: #ffffff;
+	font-size: 35px;
+	border: 3px solid #2d4059;
+}
