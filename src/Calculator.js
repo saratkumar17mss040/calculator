@@ -56,7 +56,7 @@ class Calculator extends Component {
 		return (
 			<div className="App">
 				<div
-					style={{ color: 'red', fontSize: '30px', backgroundColor: 'white' }}
+					style={{ color: 'red', fontSize: '30px', backgroundColor: 'white', textAlign: 'center' }}
 				>
 					{inform}
 				</div>
