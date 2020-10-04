@@ -9,7 +9,7 @@ A simple calculator using react where you can perform some basic mathematical op
 3. Run `npm start`
 
 
-### How will users interact with your web site?
+### How will users interact with your web application?
 
 Users will be able to click on the numbers and operators to perform mathematical operations and AC button to clear the display and also if the expression is not valid then the user is informed
 
